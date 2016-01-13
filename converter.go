@@ -5,6 +5,7 @@ package iconv
 #cgo freebsd LDFLAGS: -liconv
 #cgo windows LDFLAGS: -liconv
 #include <stdlib.h>
+#include <iconv.h>
 */
 import "C"
 import "syscall"
